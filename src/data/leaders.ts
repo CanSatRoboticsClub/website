@@ -61,5 +61,11 @@ export const leaders: Leader[] = [
         photo: "/assets/images/leadership/ethin-vo.webp",
         bio: `Directs and leads the development of all testing platforms 
         and assists other teams in large scale testing.`
-    }, 
+    },
+    {
+        name: "Maia Puckett",
+        position: "Lab & Equipment Manager",
+        photo: "/assets/images/leadership-placeholder.webp",
+        bio: `Organizes and manages lab materials and tools.`
+    },
 ]

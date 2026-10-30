@@ -122,19 +122,20 @@ export const projects = [
         image: "/assets/images/satellite/satellite-cover.webp",
         description:
             "Can-Satellite designed to collect data and deploy a PocketQube.",
+        competition: "AAS",
         specs: [
-            { label: "Canister Mass", value: "... g", headline: true },
-            { label: "PocketQube Mass", value: "... g", headline: true},
+            { label: "Canister Mass", value: "900 g", headline: true },
+            { label: "PocketQube Mass", value: "100 g", headline: true},
             { label: "Competitions", value: "0", headline: true },
         ],
         overview: [
             {
                 heading: "Design goal",
-                body: ``,
+                body: `This project strictly follows the design requirements of the AAS CanSat Competition. This project is meant to mimic a more traditional satellite project as opposed to our more robotic satellite projects.`,
             },
             {
                 heading: "How it works",
-                body: ``,
+                body: `There is a canister that contains a PocketQube, which is a small rectangular satellite. The canister holds the PocketQube after launch and releases it at 90% of its peak altitude. Both will be constantly communicating with a ground station while collecting data.`,
             },
         ],
         gallery: [
