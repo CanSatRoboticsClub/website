@@ -20,6 +20,10 @@ const { title } = Astro.props
             rel="stylesheet" /> 
         <title>{title}</title>
 	</head>
+	<!-- Cloudflare Web Analytics -->
+	<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "b4099b19a2044077bc067b37026a8316"}'>
+	</script>
+	<!-- End Cloudflare Web Analytics -->
 	<body>
 		<slot />
 	</body>

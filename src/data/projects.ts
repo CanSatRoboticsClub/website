@@ -61,6 +61,7 @@ export const projects = [
             },
         ],
         gallery : [
+            { image: "/assets/images/rover/rover-cover.webp", caption: "2026 Competition Rover" },
             { image: "/assets/images/rover/rover-1.webp", caption: "CAD" },
             { image: "/assets/images/rover/rover-2.webp", caption: "Rover isometric"},
             { image: "/assets/images/rover/rover-3.webp", caption: "Rover top down"}
@@ -99,6 +100,7 @@ export const projects = [
             },
         ],
         gallery: [
+            { image: "/assets/images/glider/glider-cover.webp", caption: "Glider Prototype"},
             { image: "/assets/images/glider/glider-1.webp", caption: "Wing Servo" },
             { image: "/assets/images/glider/glider-2.webp", caption: "Glider Wing Folded top down"},
             { image: "/assets/images/glider/glider-3.webp", caption: "Folded Wing CAD"},
@@ -114,35 +116,37 @@ export const projects = [
             ]
         },
     },
-    // {
-    //     name: "Satellite Team",
-    //     slug: "satellite",
-    //     image: "/assets/images/robot_placeholder.png",
-    //     description:
-    //         "Can-Satellite designed to collect data and deploy a PocketQube.",
-    //     specs: [
-    //         { label: "Mass", value: "... g", headline: true },
-    //         { label: "Competitions", value: "0", headline: true },
-    //     ],
-    //     overview: [
-    //         {
-    //             heading: "Design goal",
-    //             body: ``,
-    //         },
-    //         {
-    //             heading: "How it works",
-    //             body: ``,
-    //         },
-    //     ],
-    //     gallery: [
-    //         {image: "/assets/images/robot_placeholder.png", caption: "placeholder"}
-    //     ],
-    //     team: {
-    //         lead: "Tristan Wilson",
-    //         members: [
-    //             { name: "Kevin Jiao", major: "Electrical Engineering" },
-    //             { name: "Noah Svetcov", major: "Computer Engineering" },
-    //         ]
-    //     },
-    // },
+    {
+        name: "Satellite Team",
+        slug: "satellite",
+        image: "/assets/images/satellite/satellite-cover.webp",
+        description:
+            "Can-Satellite designed to collect data and deploy a PocketQube.",
+        specs: [
+            { label: "Canister Mass", value: "... g", headline: true },
+            { label: "PocketQube Mass", value: "... g", headline: true},
+            { label: "Competitions", value: "0", headline: true },
+        ],
+        overview: [
+            {
+                heading: "Design goal",
+                body: ``,
+            },
+            {
+                heading: "How it works",
+                body: ``,
+            },
+        ],
+        gallery: [
+            { image: "/assets/images/satellite/satellite-cover.webp", caption: "Canister with PocketQube CAD" },
+            { image: "/assets/images/satellite/satellite-1.webp", caption: "Canister CAD" }
+        ],
+        team: {
+            lead: "Tristan Wilson",
+            members: [
+                { name: "Kevin Jiao", major: "Electrical Engineering" },
+                { name: "Noah Svetcov", major: "Computer Engineering" },
+            ]
+        },
+    },
 ];
