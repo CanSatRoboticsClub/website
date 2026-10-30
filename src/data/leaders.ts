@@ -65,7 +65,7 @@ export const leaders: Leader[] = [
     {
         name: "Maia Puckett",
         position: "Lab & Equipment Manager",
-        photo: "/assets/images/leadership-placeholder.webp",
+        photo: "/assets/images/leadership/maia-puckett.webp",
         bio: `Organizes and manages lab materials and tools.`
     },
 ]
