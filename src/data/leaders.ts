@@ -34,7 +34,7 @@ export const leaders: Leader[] = [
     {
         name: "Zane Plante",
         position: "Social Media Manager",
-        photo: "/assets/images/leadership-placeholder.webp",
+        photo: "/assets/images/leadership/zane-plante.webp",
         bio: `Manages and directs club branding through social media, fliers, and other graphics.`
     },
     {
